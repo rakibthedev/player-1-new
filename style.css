@@ -356,7 +356,7 @@ p { text-wrap: pretty; }
   gap: 9px;
   padding: 7px 17px;
   border-radius: var(--r-full);
-  border: 1px solid rgba(0,207,255,0.28);
+  /* border: 1px solid rgba(0,207,255,0.28); */
   background: rgba(0,207,255,0.07);
   font-size: 0.72rem;
   font-weight: 700;
@@ -364,6 +364,15 @@ p { text-wrap: pretty; }
   text-transform: uppercase;
   color: var(--blue);
   margin-bottom: 28px;
+}
+.hero-badge-text{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.hero-badge-text svg{
+  margin-top: -1px;
+  margin-left: 4px;
 }
 .badge-dot {
   width: 7px;
