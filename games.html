@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Games — Player 1 Arcade</title>
+  <meta name="description" content="Browse all games at Player 1 Arcade, Mangere Auckland. Racing, basketball, claw machines, air hockey and more — all card-powered." />
+  <meta property="og:title" content="Games — Player 1 Arcade" />
+  <meta property="og:description" content="Racing, basketball, claw machines, air hockey and more. All card-powered fun at Player 1 Arcade." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="./assets/favicon-92x92.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+<!-- ═══════════════════ HEADER ═══════════════════ -->
+<header class="site-header">
+  <div class="container">
+    <div class="header-inner">
+      <a href="index.html" class="logo" aria-label="Player 1 home">
+        <img src="./assets/player1-logo-lBeeIn9W.png" alt="Player 1 Arcade" />
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="index.html"   class="nav-link">Home</a>
+        <a href="games.html"   class="nav-link active">Games</a>
+        <a href="parties.html" class="nav-link">Parties</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="contact.html" class="nav-cta">Plan a Visit</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+  <nav class="mobile-menu" id="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="games.html" class="active">Games</a>
+    <a href="parties.html">Parties</a>
+    <a href="contact.html">Contact</a>
+    <a href="contact.html" class="mob-cta-link">Plan a Visit ↗</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ═══════════════════ PAGE HERO ═══════════════════ -->
+  <section class="page-hero">
+    <div class="page-hero-bg">
+      <img src="./assets/hero-arcade-DlBj_60S.jpg" alt="" aria-hidden="true" />
+      <div class="page-hero-overlay"></div>
+    </div>
+    <div class="container">
+      <div class="page-hero-content">
+        <span class="eyebrow reveal">The Floor</span>
+        <h1 class="display-xl reveal d1">
+          <span class="grad-blue">Games</span>
+        </h1>
+        <p class="reveal d2" style="margin-top:16px;max-width:480px;color:var(--muted);font-size:1.0625rem;line-height:1.75;">
+          Tap your card once, then jump from racing seats to claw machines to the prize wall. Something new every visit.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ GAMES GRID ═══════════════════ -->
+  <section class="games-section">
+    <div class="container">
+      <div class="filter-bar" id="filterBar" role="group" aria-label="Filter by category"></div>
+      <div class="games-grid" id="gamesGrid"></div>
+      <p class="games-footer-note">Line-up rotates regularly — drop in to see what's new on the floor.</p>
+    </div>
+  </section>
+
+</main>
+
+<!-- ═══════════════════ FOOTER ═══════════════════ -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="./assets/player1-logo-lBeeIn9W.png" alt="Player 1 Arcade" class="footer-logo" />
+        <p class="footer-tagline">Your neighbourhood gaming arcade in Mangere, Auckland. Card-powered fun for everyone.</p>
+        <div class="footer-socials">
+          <a href="#" class="social-btn" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+          </a>
+          <a href="#" class="social-btn" aria-label="Facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+        </div>
+      </div>
+      <div>
+        <div class="footer-col-title">Explore</div>
+        <ul class="footer-links">
+          <li><a href="games.html">Games</a></li>
+          <li><a href="parties.html">Parties &amp; Events</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer-col-title">Visit</div>
+        <ul class="footer-links">
+          <li><strong>Address</strong>49 Orly Ave, Mangere, Auckland</li>
+          <li><strong>Email</strong>info@player1.co.nz</li>
+          <li><strong>Mon – Fri</strong>11:30 – 22:00</li>
+          <li><strong>Sat – Sun</strong>11:00 – 22:00</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">© 2026 Player 1 Arcade. All rights reserved.</div>
+  </div>
+</footer>
+
+<script src="./main.js"></script>
+<script>
+  const filterBar  = document.getElementById('filterBar');
+  const gamesGrid  = document.getElementById('gamesGrid');
+  let   allGames   = [];
+
+  fetch('./games.json')
+    .then(r => r.json())
+    .then(data => {
+      allGames = data.games;
+      buildFilters(allGames);
+      renderGames(allGames);
+    });
+
+  function renderGames(list) {
+    gamesGrid.innerHTML = list.map(g => `
+      <article class="game-card">
+        <div class="game-img-wrap">
+          <img src="./assets/images/games/${g.src}" alt="${g.name}" loading="lazy" />
+          ${g.favourite ? '<div class="game-fav-badge">Fan Favourite</div>' : ''}
+        </div>
+        <div class="game-body">
+          <div class="game-cat">${g.category}</div>
+          <h2 class="game-name">${g.name}</h2>
+          <div class="game-players">
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            ${g.player}
+          </div>
+        </div>
+      </article>
+    `).join('');
+  }
+
+  function buildFilters(games) {
+    const cats = ['All', ...new Set(games.map(g => g.category))];
+    cats.forEach((cat, i) => {
+      const btn = document.createElement('button');
+      btn.textContent = cat;
+      btn.className = 'filter-btn' + (i === 0 ? ' active' : '');
+      btn.addEventListener('click', () => {
+        filterBar.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        renderGames(cat === 'All' ? allGames : allGames.filter(g => g.category === cat));
+      });
+      filterBar.appendChild(btn);
+    });
+  }
+</script>
+</body>
+</html>

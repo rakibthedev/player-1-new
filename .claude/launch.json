@@ -1,0 +1,11 @@
+﻿{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "player-1-final",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", "-l", "3501", "C:\\\\Users\\\\abdur\\\\Desktop\\\\player-1-final"],
+      "port": 3501
+    }
+  ]
+}

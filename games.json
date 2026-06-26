@@ -1,0 +1,186 @@
+{
+  "games": [
+    {
+      "name": "Super Balloon",
+      "src": "game-1.webp",
+      "favourite": false,
+      "category": "Ticket Game",
+      "player": "1 player"
+    },
+    {
+      "name": "Crazy Toy Claw",
+      "src": "game-2.webp",
+      "favourite": true,
+      "category": "Claw Machine",
+      "player": "1 player"
+    },
+    {
+      "name": "Jungle Hockey",
+      "src": "game-3.webp",
+      "favourite": false,
+      "category": "Sports",
+      "player": "2 players"
+    },
+    {
+      "name": "Crazy Toy Panda",
+      "src": "game-4.webp",
+      "favourite": false,
+      "category": "Claw Machine",
+      "player": "1 player"
+    },
+    {
+      "name": "King Basketball",
+      "src": "game-5.webp",
+      "favourite": true,
+      "category": "Sports",
+      "player": "1 player"
+    },
+    {
+      "name": "Crazy Drift R1",
+      "src": "game-6.webp",
+      "favourite": false,
+      "category": "Racing",
+      "player": "1 player"
+    },
+    {
+      "name": "Arcade Basketball",
+      "src": "game-7.webp",
+      "favourite": false,
+      "category": "Sports",
+      "player": "1 player"
+    },
+    {
+      "name": "Mars Boxing",
+      "src": "game-8.webp",
+      "favourite": true,
+      "category": "Sports",
+      "player": "1 player"
+    },
+    {
+      "name": "Be Marksman",
+      "src": "game-9.webp",
+      "favourite": false,
+      "category": "Shooting",
+      "player": "1–2 players"
+    },
+    {
+      "name": "Space Express",
+      "src": "game-10.webp",
+      "favourite": true,
+      "category": "Arcade Game",
+      "player": "1–2 players"
+    },
+    {
+      "name": "Storm Racer",
+      "src": "game-11.webp",
+      "favourite": false,
+      "category": "Racing",
+      "player": "1–2 players"
+    },
+    {
+      "name": "Super Bike III",
+      "src": "game-12.webp",
+      "favourite": true,
+      "category": "Racing",
+      "player": "1–2 players"
+    },
+    {
+      "name": "Air Hockey Pro",
+      "src": "game-13.webp",
+      "favourite": false,
+      "category": "Sports",
+      "player": "2 players"
+    },
+    {
+      "name": "Ultimate Puncher",
+      "src": "game-14.webp",
+      "favourite": false,
+      "category": "Sports",
+      "player": "1 player"
+    },
+    {
+      "name": "Crazy Toy 2",
+      "src": "game-15.webp",
+      "favourite": false,
+      "category": "Claw Machine",
+      "player": "1 player"
+    },
+    {
+      "name": "Basket Pippen",
+      "src": "game-16.webp",
+      "favourite": false,
+      "category": "Sports",
+      "player": "1 player"
+    },
+    {
+      "name": "Baby Air Hockey",
+      "src": "game-17.webp",
+      "favourite": false,
+      "category": "Sports",
+      "player": "2 players"
+    },
+    {
+      "name": "Fire Hero Basketball",
+      "src": "game-18.webp",
+      "favourite": false,
+      "category": "Sports",
+      "player": "1 player"
+    },
+    {
+      "name": "Dynamic Bowling",
+      "src": "game-19.webp",
+      "favourite": false,
+      "category": "Sports",
+      "player": "1–2 players"
+    },
+    {
+      "name": "Pixel Chase",
+      "src": "game-20.webp",
+      "favourite": false,
+      "category": "Ticket Game",
+      "player": "1 player"
+    },
+   {
+      "name": "Over the Edge",
+      "src": "game-21.webp",
+      "favourite": false,
+      "category": "Ticket Game",
+      "player": "1–2 players"
+    },
+    {
+      "name": "Ice Cream Vacation",
+      "src": "game-22.webp",
+      "favourite": false,
+      "category": "Claw Machine",
+      "player": "1 player"
+    },
+    {
+      "name": "Dinosaur Claw Machine",
+      "src": "game-23.webp",
+      "favourite": false,
+      "category": "Claw Machine",
+      "player": "1 player"
+    },
+    {
+      "name": "Cut Ur Prize",
+      "src": "game-24.webp",
+      "favourite": false,
+      "category": "Prize Game",
+      "player": "1 player"
+    },
+    {
+      "name": "Neon Air Hockey",
+      "src": "game-25.webp",
+      "favourite": false,
+      "category": "Sports",
+      "player": "2 players"
+    },
+    {
+      "name": "Space Express Pusher",
+      "src": "game-26.webp",
+      "favourite": false,
+      "category": "Ticket Game",
+      "player": "1–2 players"
+    }
+  ]
+}
